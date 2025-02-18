@@ -1,0 +1,42 @@
+/* style.css */
+
+.recipe-card {
+    width: 400px;
+    background-color: #FFFAFA;
+    text-align: center;
+}
+
+.recipe-card.feature {
+    border: 1px solid black;
+}
+
+.title  {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Verdana", sans-serif;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Verdana", sans-serif;
+}
+
+.images {
+    width: 350px;
+    height: auto;
+}
+
+p,
+.description,
+.unorderedlist,
+.orderedlist,
+#return {
+    font-family: "Verdana", sans-serif;
+    text-align: left;
+}
+
+.unorderedlist {
+    list-style: none;
+}
+
